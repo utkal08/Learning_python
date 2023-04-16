@@ -6,7 +6,7 @@ source= requests.get('http://coreyms.com').text
 #with open ('sample.html') as html_file:
 soup = BeautifulSoup(source,'lxml')
 
-for arti
+
 article = soup.find('article')
 
 #summary = article.find('div',class_='entry-content').p.text
